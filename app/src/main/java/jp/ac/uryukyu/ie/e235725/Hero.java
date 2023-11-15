@@ -12,30 +12,63 @@ package jp.ac.uryukyu.ie.e235725;
  */
 public class Hero {
     private String name;
+    /**
+     * getter
+     * @return String name 敵の名前
+     */
     public String getName() {
         return this.name;
     }
+
     private int hitPoint;
+    /**
+     * getter
+     * @return int hitPoint 敵のHP
+     */
     public int getHitPoint() {
         return this.hitPoint;
     }
     private int attack;
+    /**
+     * getter
+     * @return int attack 敵の攻撃力
+     */
     public int getAttack() {
         return this.attack;
     }
     private boolean dead;
+    /**
+     * getter
+     * @return boolean dead 敵の生死状態。true=死亡。
+     */
     public boolean getDead() {
         return this.dead;
     }
+    /**
+     * setter
+     * @param String name 敵の名前
+     */
     public void setName(String name) {
         this.name = name;
     }
+    /**
+     * setter
+     * @param int hitPoint 敵のHP
+     */
     public void setHitPoint(int hitPoint) {
         this.hitPoint = hitPoint;
     }
+    /**
+     * setter
+     * @param int attack 敵の攻撃力
+     */
     public void setAttack(int attack) {
         this.attack =  attack;
     }
+    /**
+     * setter
+     * @param boolean dead 敵の生死状態。true=死亡。
+     */
     public void setDead(boolean dead) {
         this.dead = dead;
     }
